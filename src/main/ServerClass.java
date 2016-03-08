@@ -53,7 +53,7 @@ public class ServerClass {
 			xmlres = queryXMLHandler(input_xml);
 		}
 		
-		
+		int i = 0;
 		DOMSource source = new DOMSource(xmlres);
 		TransformerFactory transformerFactory = TransformerFactory.newInstance();
 		Transformer transformer = transformerFactory.newTransformer();
